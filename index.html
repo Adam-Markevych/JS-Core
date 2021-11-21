@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>task</title>
+</head>
+
+<body>
+    <div class="you-win">
+        <h3>Woohoo, well done, you did it!</h3>
+        <input type="submit" onClick="window.location.reload()" value="Close" class="btn-close check-box__btn btn-close-restart">
+    </div>
+    <div class="you-lost">
+        <h3>It's a pity, but you lost</h3>
+        <input type="submit" onClick="window.location.reload()" value="Close" class="btn-close check-box__btn btn-close-restart">
+    </div>
+    <div class="time-lost">
+        <h3>It's a pity, but you lost</h3>
+        <input type="button" value="Close" onClick="window.location.reload()" class="btn-close check-box__btn">
+    </div>
+    <div class="check-box">
+        <h3>You still have time, you sure? <span>00:00<span></h3>
+        <input type="button" value="Close" class="btn-close check-box__btn">
+        <input type="button" value="Check" class="btn-check check-box__btn">
+    </div>
+
+    </div>
+    <div class="menu-game">
+        <h2 class="time">03:00</h2>
+        <input type="button" value="Start game" class="btn-start-game menu-game__btn">
+        <input type="button" value="Check result" disabled class="btn-check-result menu-game__btn">
+        <input type="button" value="New game"  class="btn-new-game menu-game__btn">
+    </div>
+    <div class="puzzle">
+        <div id="start" class="start-puzzle box">
+            <div class="arsenal"><p class="text">1</p><img class="img-arsenal" src="images/arsenal01.png" alt="#"></div>
+            <div class="arsenal"><p class="text">2</p><img class="img-arsenal" src="images/arsenal02.png" alt="#"></div>
+            <div class="arsenal"><p class="text">3</p><img class="img-arsenal" src="images/arsenal03.png" alt="#"></div>
+            <div class="arsenal"><p class="text">4</p><img class="img-arsenal" src="images/arsenal04.png" alt="#"></div>
+            <div class="arsenal"><p class="text">5</p><img class="img-arsenal" src="images/arsenal05.png" alt="#"></div>
+            <div class="arsenal"><p class="text">6</p><img class="img-arsenal" src="images/arsenal06.png" alt="#"></div>
+            <div class="arsenal"><p class="text">7</p><img class="img-arsenal" src="images/arsenal07.png" alt="#"></div>
+            <div class="arsenal"><p class="text">8</p><img class="img-arsenal" src="images/arsenal08.png" alt="#"></div>
+            <div class="arsenal"><p class="text">9</p><img class="img-arsenal" src="images/arsenal09.png" alt="#"></div>
+            <div class="arsenal"><p class="text">10</p><img class="img-arsenal" src="images/arsenal10.png" alt="#"></div>
+            <div class="arsenal"><p class="text">11</p><img class="img-arsenal" src="images/arsenal11.png" alt="#"></div>
+            <div class="arsenal"><p class="text">12</p><img class="img-arsenal" src="images/arsenal12.png" alt="#"></div>
+            <div class="arsenal"><p class="text">13</p><img class="img-arsenal" src="images/arsenal13.png" alt="#"></div>
+            <div class="arsenal"><p class="text">14</p><img class="img-arsenal" src="images/arsenal14.png" alt="#"></div>
+            <div class="arsenal"><p class="text">15</p><img class="img-arsenal" src="images/arsenal15.png" alt="#"></div>
+            <div class="arsenal"><p class="text">16</p><img class="img-arsenal" src="images/arsenal16.png" alt="#"></div>
+        </div>
+        <div id="end" class="end-puzzle">
+            <div class="end-arsenal box" id="end"><div class="ff"></div></div>
+            <div class="end-arsenal box" id="end"><div class="ff"></div></div>
+            <div class="end-arsenal box" id="end"><div class="ff"></div></div>
+            <div class="end-arsenal box" id="end"><div class="ff"></div></div>
+            <div class="end-arsenal box" id="end"><div class="ff"></div></div>
+            <div class="end-arsenal box" id="end"><div class="ff"></div></div>
+            <div class="end-arsenal box" id="end"><div class="ff"></div></div>
+            <div class="end-arsenal box" id="end"><div class="ff"></div></div>
+            <div class="end-arsenal box" id="end"><div class="ff"></div></div>
+            <div class="end-arsenal box" id="end"><div class="ff"></div></div>
+            <div class="end-arsenal box" id="end"><div class="ff"></div></div>
+            <div class="end-arsenal box" id="end"><div class="ff"></div></div>
+            <div class="end-arsenal box" id="end"><div class="ff"></div></div>
+            <div class="end-arsenal box" id="end"><div class="ff"></div></div>
+            <div class="end-arsenal box" id="end"><div class="ff"></div></div>
+            <div class="end-arsenal box" id="end"><div class="ff"></div></div>
+        </div>
+        
+    </div>
+    <script src="jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
